@@ -1,0 +1,1102 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		185E82021BF0C24100B01624 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E82011BF0C24100B01624 /* Global.swift */; };
+		185E82031BF0C2CF00B01624 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E82011BF0C24100B01624 /* Global.swift */; };
+		B80107E11BE063FB00FA4CD4 /* LunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80107E01BE063FB00FA4CD4 /* LunchViewController.swift */; };
+		B80107E61BE074D000FA4CD4 /* NewSettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80107E51BE074D000FA4CD4 /* NewSettingController.swift */; };
+		B80107E81BE0AFC500FA4CD4 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80107E71BE0AFC500FA4CD4 /* SettingViewController.swift */; };
+		B80107EA1BE0AFD500FA4CD4 /* SettingClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80107E91BE0AFD500FA4CD4 /* SettingClassViewController.swift */; };
+		B822670C1BEB2D94004EBB88 /* KindSettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B822670B1BEB2D94004EBB88 /* KindSettingController.swift */; };
+		B8527FA51BD9C05300796ADD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8527FA41BD9C05300796ADD /* AppDelegate.swift */; };
+		B8527FA71BD9C05300796ADD /* TimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8527FA61BD9C05300796ADD /* TimeTableViewController.swift */; };
+		B8527FA91BD9C05300796ADD /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8527FA81BD9C05300796ADD /* MealViewController.swift */; };
+		B8527FAC1BD9C05300796ADD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8527FAA1BD9C05300796ADD /* Main.storyboard */; };
+		B8527FAE1BD9C05300796ADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8527FAD1BD9C05300796ADD /* Assets.xcassets */; };
+		B8527FB11BD9C05300796ADD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8527FAF1BD9C05300796ADD /* LaunchScreen.storyboard */; };
+		B8527FBC1BD9C05300796ADD /* Pungmu_TimetableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8527FBB1BD9C05300796ADD /* Pungmu_TimetableTests.swift */; };
+		B8527FC71BD9C05300796ADD /* Pungmu_TimetableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8527FC61BD9C05300796ADD /* Pungmu_TimetableUITests.swift */; };
+		B8527FD71BD9C0F700796ADD /* TimeTableParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8527FD61BD9C0F700796ADD /* TimeTableParse.swift */; };
+		B85831AC1BF0297F009C8E7F /* TimeTableParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8527FD61BD9C0F700796ADD /* TimeTableParse.swift */; };
+		B85831AF1BF02999009C8E7F /* MealParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88194C01BDDB99C00A3A217 /* MealParse.swift */; };
+		B85831B21BF02A22009C8E7F /* Watch_Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85831B11BF02A22009C8E7F /* Watch_Global.swift */; };
+		B85831B81BF02B65009C8E7F /* MealParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88194C01BDDB99C00A3A217 /* MealParse.swift */; };
+		B85831B91BF02B68009C8E7F /* TimeTableParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8527FD61BD9C0F700796ADD /* TimeTableParse.swift */; };
+		B8724AFA1BEB352000285334 /* TeacherSettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8724AF91BEB352000285334 /* TeacherSettingController.swift */; };
+		B8724AFC1BEB82CD00285334 /* SettingTeacherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8724AFB1BEB82CD00285334 /* SettingTeacherController.swift */; };
+		B88194C11BDDB99C00A3A217 /* MealParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88194C01BDDB99C00A3A217 /* MealParse.swift */; };
+		B88194DD1BDDCA5300A3A217 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88194C81BDDC96900A3A217 /* NotificationCenter.framework */; };
+		B88194E01BDDCA5400A3A217 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88194DF1BDDCA5400A3A217 /* TodayViewController.swift */; };
+		B88194E31BDDCA5400A3A217 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B88194E11BDDCA5400A3A217 /* MainInterface.storyboard */; };
+		B881950A1BDE1D3300A3A217 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88195091BDE1D3300A3A217 /* MainViewController.swift */; };
+		B88AC1451BE3462B00257840 /* AddtionalSettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88AC1441BE3462B00257840 /* AddtionalSettingController.swift */; };
+		B88AC1461BE3491D00257840 /* notify.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B88194DC1BDDCA5300A3A217 /* notify.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B88AC1501BE72A1300257840 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B88AC14E1BE72A1300257840 /* Interface.storyboard */; };
+		B88AC1521BE72A1300257840 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B88AC1511BE72A1300257840 /* Assets.xcassets */; };
+		B88AC1591BE72A1300257840 /* WatchTIME Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B88AC1581BE72A1300257840 /* WatchTIME Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B88AC1601BE72A1400257840 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88AC15F1BE72A1400257840 /* InterfaceController.swift */; };
+		B88AC1621BE72A1400257840 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88AC1611BE72A1400257840 /* ExtensionDelegate.swift */; };
+		B88AC1641BE72A1400257840 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88AC1631BE72A1400257840 /* NotificationController.swift */; };
+		B88AC1661BE72A1400257840 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B88AC1651BE72A1400257840 /* Assets.xcassets */; };
+		B88AC16A1BE72A1400257840 /* WatchTIME.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B88AC14C1BE72A1300257840 /* WatchTIME.app */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8527FB81BD9C05300796ADD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8527F991BD9C05300796ADD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8527FA01BD9C05300796ADD;
+			remoteInfo = Pungmu_Timetable;
+		};
+		B8527FC31BD9C05300796ADD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8527F991BD9C05300796ADD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8527FA01BD9C05300796ADD;
+			remoteInfo = Pungmu_Timetable;
+		};
+		B88AC1471BE3491D00257840 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8527F991BD9C05300796ADD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B88194DB1BDDCA5300A3A217;
+			remoteInfo = notify;
+		};
+		B88AC15A1BE72A1300257840 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8527F991BD9C05300796ADD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B88AC1571BE72A1300257840;
+			remoteInfo = "WatchTIME Extension";
+		};
+		B88AC1681BE72A1400257840 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8527F991BD9C05300796ADD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B88AC14B1BE72A1300257840;
+			remoteInfo = WatchTIME;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B88AC1491BE3491E00257840 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B88AC1461BE3491D00257840 /* notify.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88AC1701BE72A1400257840 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B88AC1591BE72A1300257840 /* WatchTIME Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88AC1721BE72A1400257840 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B88AC16A1BE72A1400257840 /* WatchTIME.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		185E82011BF0C24100B01624 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		B80107E01BE063FB00FA4CD4 /* LunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunchViewController.swift; sourceTree = "<group>"; };
+		B80107E51BE074D000FA4CD4 /* NewSettingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewSettingController.swift; sourceTree = "<group>"; };
+		B80107E71BE0AFC500FA4CD4 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		B80107E91BE0AFD500FA4CD4 /* SettingClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingClassViewController.swift; sourceTree = "<group>"; };
+		B822670B1BEB2D94004EBB88 /* KindSettingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KindSettingController.swift; sourceTree = "<group>"; };
+		B8527FA11BD9C05300796ADD /* 풍무고등학교.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "풍무고등학교.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8527FA41BD9C05300796ADD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B8527FA61BD9C05300796ADD /* TimeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableViewController.swift; sourceTree = "<group>"; };
+		B8527FA81BD9C05300796ADD /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
+		B8527FAB1BD9C05300796ADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8527FAD1BD9C05300796ADD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8527FB01BD9C05300796ADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8527FB21BD9C05300796ADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8527FB71BD9C05300796ADD /* 풍무고등학교.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "풍무고등학교.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8527FBB1BD9C05300796ADD /* Pungmu_TimetableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pungmu_TimetableTests.swift; sourceTree = "<group>"; };
+		B8527FBD1BD9C05300796ADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8527FC21BD9C05300796ADD /* 풍무고등학교.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "풍무고등학교.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8527FC61BD9C05300796ADD /* Pungmu_TimetableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pungmu_TimetableUITests.swift; sourceTree = "<group>"; };
+		B8527FC81BD9C05300796ADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8527FD61BD9C0F700796ADD /* TimeTableParse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimeTableParse.swift; path = Pungmu_Timetable/TimeTableParse.swift; sourceTree = "<group>"; };
+		B85831B11BF02A22009C8E7F /* Watch_Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Watch_Global.swift; sourceTree = "<group>"; };
+		B8724AF91BEB352000285334 /* TeacherSettingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherSettingController.swift; sourceTree = "<group>"; };
+		B8724AFB1BEB82CD00285334 /* SettingTeacherController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTeacherController.swift; sourceTree = "<group>"; };
+		B88194C01BDDB99C00A3A217 /* MealParse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MealParse.swift; path = Pungmu_Timetable/MealParse.swift; sourceTree = "<group>"; };
+		B88194C81BDDC96900A3A217 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		B88194DC1BDDCA5300A3A217 /* notify.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = notify.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B88194DF1BDDCA5400A3A217 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		B88194E21BDDCA5400A3A217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		B88194E41BDDCA5400A3A217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B88195041BDDF97D00A3A217 /* 풍무고등학교.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "풍무고등학교.entitlements"; path = "풍무고등학교/풍무고등학교.entitlements"; sourceTree = "<group>"; };
+		B88195091BDE1D3300A3A217 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B88AC1441BE3462B00257840 /* AddtionalSettingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddtionalSettingController.swift; sourceTree = "<group>"; };
+		B88AC14C1BE72A1300257840 /* WatchTIME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchTIME.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B88AC14F1BE72A1300257840 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		B88AC1511BE72A1300257840 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B88AC1531BE72A1300257840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B88AC1581BE72A1300257840 /* WatchTIME Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchTIME Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B88AC15E1BE72A1300257840 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		B88AC15F1BE72A1400257840 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		B88AC1611BE72A1400257840 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		B88AC1631BE72A1400257840 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		B88AC1651BE72A1400257840 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B88AC1671BE72A1400257840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B88AC1741BE984EB00257840 /* notify.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = notify.entitlements; path = notify/notify.entitlements; sourceTree = "<group>"; };
+		B88AC1751BE984FA00257840 /* WatchTIME.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = WatchTIME.entitlements; sourceTree = "<group>"; };
+		B88AC1761BE9850800257840 /* WatchTIME Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "WatchTIME Extension.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8527F9E1BD9C05300796ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8527FB41BD9C05300796ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8527FBF1BD9C05300796ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88194D91BDDCA5300A3A217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B88194DD1BDDCA5300A3A217 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88AC1551BE72A1300257840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8527F981BD9C05300796ADD = {
+			isa = PBXGroup;
+			children = (
+				B88AC1741BE984EB00257840 /* notify.entitlements */,
+				B88195041BDDF97D00A3A217 /* 풍무고등학교.entitlements */,
+				B85831B71BF02A84009C8E7F /* GlobalModule */,
+				B8527FA31BD9C05300796ADD /* Pungmu_Timetable */,
+				B88194DE1BDDCA5300A3A217 /* 급식시간표 */,
+				B88AC14D1BE72A1300257840 /* WatchTIME */,
+				B88AC15C1BE72A1300257840 /* WatchTIME Extension */,
+				B8527FC51BD9C05300796ADD /* Pungmu_TimetableUITests */,
+				B8527FBA1BD9C05300796ADD /* Pungmu_TimetableTests */,
+				B88194C71BDDC96900A3A217 /* Frameworks */,
+				B8527FA21BD9C05300796ADD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8527FA21BD9C05300796ADD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8527FA11BD9C05300796ADD /* 풍무고등학교.app */,
+				B8527FB71BD9C05300796ADD /* 풍무고등학교.xctest */,
+				B8527FC21BD9C05300796ADD /* 풍무고등학교.xctest */,
+				B88194DC1BDDCA5300A3A217 /* notify.appex */,
+				B88AC14C1BE72A1300257840 /* WatchTIME.app */,
+				B88AC1581BE72A1300257840 /* WatchTIME Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8527FA31BD9C05300796ADD /* Pungmu_Timetable */ = {
+			isa = PBXGroup;
+			children = (
+				B88195071BDE1AF000A3A217 /* View */,
+				B88AC1731BE83DFB00257840 /* Module */,
+				B8527FAD1BD9C05300796ADD /* Assets.xcassets */,
+				B8527FAA1BD9C05300796ADD /* Main.storyboard */,
+				B8527FAF1BD9C05300796ADD /* LaunchScreen.storyboard */,
+				B8527FB21BD9C05300796ADD /* Info.plist */,
+			);
+			path = Pungmu_Timetable;
+			sourceTree = "<group>";
+		};
+		B8527FBA1BD9C05300796ADD /* Pungmu_TimetableTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8527FBB1BD9C05300796ADD /* Pungmu_TimetableTests.swift */,
+				B8527FBD1BD9C05300796ADD /* Info.plist */,
+			);
+			path = Pungmu_TimetableTests;
+			sourceTree = "<group>";
+		};
+		B8527FC51BD9C05300796ADD /* Pungmu_TimetableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B8527FC61BD9C05300796ADD /* Pungmu_TimetableUITests.swift */,
+				B8527FC81BD9C05300796ADD /* Info.plist */,
+			);
+			path = Pungmu_TimetableUITests;
+			sourceTree = "<group>";
+		};
+		B85831B71BF02A84009C8E7F /* GlobalModule */ = {
+			isa = PBXGroup;
+			children = (
+				185E82011BF0C24100B01624 /* Global.swift */,
+				B88194C01BDDB99C00A3A217 /* MealParse.swift */,
+				B8527FD61BD9C0F700796ADD /* TimeTableParse.swift */,
+			);
+			name = GlobalModule;
+			sourceTree = "<group>";
+		};
+		B8724AFD1BEC6AB700285334 /* StartSetting */ = {
+			isa = PBXGroup;
+			children = (
+				B80107E01BE063FB00FA4CD4 /* LunchViewController.swift */,
+				B822670B1BEB2D94004EBB88 /* KindSettingController.swift */,
+				B8724AF91BEB352000285334 /* TeacherSettingController.swift */,
+				B80107E51BE074D000FA4CD4 /* NewSettingController.swift */,
+				B88AC1441BE3462B00257840 /* AddtionalSettingController.swift */,
+			);
+			name = StartSetting;
+			sourceTree = "<group>";
+		};
+		B8724AFE1BEC6ACC00285334 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B88195091BDE1D3300A3A217 /* MainViewController.swift */,
+				B8527FA61BD9C05300796ADD /* TimeTableViewController.swift */,
+				B8527FA81BD9C05300796ADD /* MealViewController.swift */,
+				B80107E71BE0AFC500FA4CD4 /* SettingViewController.swift */,
+				B80107E91BE0AFD500FA4CD4 /* SettingClassViewController.swift */,
+				B8724AFB1BEB82CD00285334 /* SettingTeacherController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		B88194C71BDDC96900A3A217 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B88194C81BDDC96900A3A217 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B88194DE1BDDCA5300A3A217 /* 급식시간표 */ = {
+			isa = PBXGroup;
+			children = (
+				B88194DF1BDDCA5400A3A217 /* TodayViewController.swift */,
+				B88194E11BDDCA5400A3A217 /* MainInterface.storyboard */,
+				B88194E41BDDCA5400A3A217 /* Info.plist */,
+			);
+			name = "급식시간표";
+			path = notify;
+			sourceTree = "<group>";
+		};
+		B88195071BDE1AF000A3A217 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B8724AFD1BEC6AB700285334 /* StartSetting */,
+				B8724AFE1BEC6ACC00285334 /* Main */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B88AC14D1BE72A1300257840 /* WatchTIME */ = {
+			isa = PBXGroup;
+			children = (
+				B88AC1751BE984FA00257840 /* WatchTIME.entitlements */,
+				B88AC14E1BE72A1300257840 /* Interface.storyboard */,
+				B88AC1511BE72A1300257840 /* Assets.xcassets */,
+				B88AC1531BE72A1300257840 /* Info.plist */,
+			);
+			path = WatchTIME;
+			sourceTree = "<group>";
+		};
+		B88AC15C1BE72A1300257840 /* WatchTIME Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B88AC1761BE9850800257840 /* WatchTIME Extension.entitlements */,
+				B88AC15F1BE72A1400257840 /* InterfaceController.swift */,
+				B88AC1611BE72A1400257840 /* ExtensionDelegate.swift */,
+				B88AC1631BE72A1400257840 /* NotificationController.swift */,
+				B88AC1651BE72A1400257840 /* Assets.xcassets */,
+				B88AC1671BE72A1400257840 /* Info.plist */,
+				B88AC15D1BE72A1300257840 /* Supporting Files */,
+				B85831B11BF02A22009C8E7F /* Watch_Global.swift */,
+			);
+			path = "WatchTIME Extension";
+			sourceTree = "<group>";
+		};
+		B88AC15D1BE72A1300257840 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B88AC15E1BE72A1300257840 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B88AC1731BE83DFB00257840 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				B8527FA41BD9C05300796ADD /* AppDelegate.swift */,
+			);
+			name = Module;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8527FA01BD9C05300796ADD /* 풍무고등학교 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8527FCB1BD9C05300796ADD /* Build configuration list for PBXNativeTarget "풍무고등학교" */;
+			buildPhases = (
+				B8527F9D1BD9C05300796ADD /* Sources */,
+				B8527F9E1BD9C05300796ADD /* Frameworks */,
+				B8527F9F1BD9C05300796ADD /* Resources */,
+				B88AC1491BE3491E00257840 /* Embed App Extensions */,
+				B88AC1721BE72A1400257840 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B88AC1481BE3491D00257840 /* PBXTargetDependency */,
+				B88AC1691BE72A1400257840 /* PBXTargetDependency */,
+			);
+			name = "풍무고등학교";
+			productName = Pungmu_Timetable;
+			productReference = B8527FA11BD9C05300796ADD /* 풍무고등학교.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8527FB61BD9C05300796ADD /* 풍무고등학교Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8527FCE1BD9C05300796ADD /* Build configuration list for PBXNativeTarget "풍무고등학교Tests" */;
+			buildPhases = (
+				B8527FB31BD9C05300796ADD /* Sources */,
+				B8527FB41BD9C05300796ADD /* Frameworks */,
+				B8527FB51BD9C05300796ADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8527FB91BD9C05300796ADD /* PBXTargetDependency */,
+			);
+			name = "풍무고등학교Tests";
+			productName = Pungmu_TimetableTests;
+			productReference = B8527FB71BD9C05300796ADD /* 풍무고등학교.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B8527FC11BD9C05300796ADD /* 풍무고등학교UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8527FD11BD9C05300796ADD /* Build configuration list for PBXNativeTarget "풍무고등학교UITests" */;
+			buildPhases = (
+				B8527FBE1BD9C05300796ADD /* Sources */,
+				B8527FBF1BD9C05300796ADD /* Frameworks */,
+				B8527FC01BD9C05300796ADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8527FC41BD9C05300796ADD /* PBXTargetDependency */,
+			);
+			name = "풍무고등학교UITests";
+			productName = Pungmu_TimetableUITests;
+			productReference = B8527FC21BD9C05300796ADD /* 풍무고등학교.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B88194DB1BDDCA5300A3A217 /* notify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B88194E81BDDCA5400A3A217 /* Build configuration list for PBXNativeTarget "notify" */;
+			buildPhases = (
+				B88194D81BDDCA5300A3A217 /* Sources */,
+				B88194D91BDDCA5300A3A217 /* Frameworks */,
+				B88194DA1BDDCA5300A3A217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = notify;
+			productName = notify;
+			productReference = B88194DC1BDDCA5300A3A217 /* notify.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B88AC14B1BE72A1300257840 /* WatchTIME */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B88AC1711BE72A1400257840 /* Build configuration list for PBXNativeTarget "WatchTIME" */;
+			buildPhases = (
+				B88AC14A1BE72A1300257840 /* Resources */,
+				B88AC1701BE72A1400257840 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B88AC15B1BE72A1300257840 /* PBXTargetDependency */,
+			);
+			name = WatchTIME;
+			productName = WatchTIME;
+			productReference = B88AC14C1BE72A1300257840 /* WatchTIME.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		B88AC1571BE72A1300257840 /* WatchTIME Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B88AC16F1BE72A1400257840 /* Build configuration list for PBXNativeTarget "WatchTIME Extension" */;
+			buildPhases = (
+				B88AC1541BE72A1300257840 /* Sources */,
+				B88AC1551BE72A1300257840 /* Frameworks */,
+				B88AC1561BE72A1300257840 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchTIME Extension";
+			productName = "WatchTIME Extension";
+			productReference = B88AC1581BE72A1300257840 /* WatchTIME Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8527F991BD9C05300796ADD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "김경윤(프매씨)";
+				TargetAttributes = {
+					B8527FA01BD9C05300796ADD = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 67F33NMGKQ;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					B8527FB61BD9C05300796ADD = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = CK484L4538;
+						TestTargetID = B8527FA01BD9C05300796ADD;
+					};
+					B8527FC11BD9C05300796ADD = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = CK484L4538;
+						TestTargetID = B8527FA01BD9C05300796ADD;
+					};
+					B88194DB1BDDCA5300A3A217 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 67F33NMGKQ;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					B88AC14B1BE72A1300257840 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 67F33NMGKQ;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					B88AC1571BE72A1300257840 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 67F33NMGKQ;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B8527F9C1BD9C05300796ADD /* Build configuration list for PBXProject "풍무고등학교" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8527F981BD9C05300796ADD;
+			productRefGroup = B8527FA21BD9C05300796ADD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8527FA01BD9C05300796ADD /* 풍무고등학교 */,
+				B8527FB61BD9C05300796ADD /* 풍무고등학교Tests */,
+				B8527FC11BD9C05300796ADD /* 풍무고등학교UITests */,
+				B88194DB1BDDCA5300A3A217 /* notify */,
+				B88AC14B1BE72A1300257840 /* WatchTIME */,
+				B88AC1571BE72A1300257840 /* WatchTIME Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8527F9F1BD9C05300796ADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8527FB11BD9C05300796ADD /* LaunchScreen.storyboard in Resources */,
+				B8527FAE1BD9C05300796ADD /* Assets.xcassets in Resources */,
+				B8527FAC1BD9C05300796ADD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8527FB51BD9C05300796ADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8527FC01BD9C05300796ADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88194DA1BDDCA5300A3A217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B88194E31BDDCA5400A3A217 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88AC14A1BE72A1300257840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B88AC1521BE72A1300257840 /* Assets.xcassets in Resources */,
+				B88AC1501BE72A1300257840 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88AC1561BE72A1300257840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B88AC1661BE72A1400257840 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8527F9D1BD9C05300796ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80107E61BE074D000FA4CD4 /* NewSettingController.swift in Sources */,
+				B881950A1BDE1D3300A3A217 /* MainViewController.swift in Sources */,
+				B8724AFC1BEB82CD00285334 /* SettingTeacherController.swift in Sources */,
+				B822670C1BEB2D94004EBB88 /* KindSettingController.swift in Sources */,
+				B88AC1451BE3462B00257840 /* AddtionalSettingController.swift in Sources */,
+				B8527FD71BD9C0F700796ADD /* TimeTableParse.swift in Sources */,
+				B8527FA91BD9C05300796ADD /* MealViewController.swift in Sources */,
+				B80107EA1BE0AFD500FA4CD4 /* SettingClassViewController.swift in Sources */,
+				185E82021BF0C24100B01624 /* Global.swift in Sources */,
+				B80107E81BE0AFC500FA4CD4 /* SettingViewController.swift in Sources */,
+				B8724AFA1BEB352000285334 /* TeacherSettingController.swift in Sources */,
+				B8527FA51BD9C05300796ADD /* AppDelegate.swift in Sources */,
+				B80107E11BE063FB00FA4CD4 /* LunchViewController.swift in Sources */,
+				B88194C11BDDB99C00A3A217 /* MealParse.swift in Sources */,
+				B8527FA71BD9C05300796ADD /* TimeTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8527FB31BD9C05300796ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8527FBC1BD9C05300796ADD /* Pungmu_TimetableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8527FBE1BD9C05300796ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8527FC71BD9C05300796ADD /* Pungmu_TimetableUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88194D81BDDCA5300A3A217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185E82031BF0C2CF00B01624 /* Global.swift in Sources */,
+				B85831AC1BF0297F009C8E7F /* TimeTableParse.swift in Sources */,
+				B88194E01BDDCA5400A3A217 /* TodayViewController.swift in Sources */,
+				B85831AF1BF02999009C8E7F /* MealParse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88AC1541BE72A1300257840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B85831B81BF02B65009C8E7F /* MealParse.swift in Sources */,
+				B85831B91BF02B68009C8E7F /* TimeTableParse.swift in Sources */,
+				B85831B21BF02A22009C8E7F /* Watch_Global.swift in Sources */,
+				B88AC1641BE72A1400257840 /* NotificationController.swift in Sources */,
+				B88AC1621BE72A1400257840 /* ExtensionDelegate.swift in Sources */,
+				B88AC1601BE72A1400257840 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8527FB91BD9C05300796ADD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8527FA01BD9C05300796ADD /* 풍무고등학교 */;
+			targetProxy = B8527FB81BD9C05300796ADD /* PBXContainerItemProxy */;
+		};
+		B8527FC41BD9C05300796ADD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8527FA01BD9C05300796ADD /* 풍무고등학교 */;
+			targetProxy = B8527FC31BD9C05300796ADD /* PBXContainerItemProxy */;
+		};
+		B88AC1481BE3491D00257840 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B88194DB1BDDCA5300A3A217 /* notify */;
+			targetProxy = B88AC1471BE3491D00257840 /* PBXContainerItemProxy */;
+		};
+		B88AC15B1BE72A1300257840 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B88AC1571BE72A1300257840 /* WatchTIME Extension */;
+			targetProxy = B88AC15A1BE72A1300257840 /* PBXContainerItemProxy */;
+		};
+		B88AC1691BE72A1400257840 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B88AC14B1BE72A1300257840 /* WatchTIME */;
+			targetProxy = B88AC1681BE72A1400257840 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8527FAA1BD9C05300796ADD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8527FAB1BD9C05300796ADD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8527FAF1BD9C05300796ADD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8527FB01BD9C05300796ADD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B88194E11BDDCA5400A3A217 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B88194E21BDDCA5400A3A217 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		B88AC14E1BE72A1300257840 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B88AC14F1BE72A1300257840 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8527FC91BD9C05300796ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8527FCA1BD9C05300796ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8527FCC1BD9C05300796ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "풍무고등학교/풍무고등학교.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Pungmu_Timetable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartBox.Pungmu-Timetable-App";
+				PRODUCT_NAME = "풍무고등학교";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B8527FCD1BD9C05300796ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "풍무고등학교/풍무고등학교.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Pungmu_Timetable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartBox.Pungmu-Timetable-App";
+				PRODUCT_NAME = "풍무고등학교";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B8527FCF1BD9C05300796ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Pungmu_TimetableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartBox.Pungmu-TimetableTests";
+				PRODUCT_NAME = "풍무고등학교";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/풍무고등학교.app/풍무고등학교";
+			};
+			name = Debug;
+		};
+		B8527FD01BD9C05300796ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Pungmu_TimetableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartBox.Pungmu-TimetableTests";
+				PRODUCT_NAME = "풍무고등학교";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/풍무고등학교.app/풍무고등학교";
+			};
+			name = Release;
+		};
+		B8527FD21BD9C05300796ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Pungmu_TimetableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartBox.Pungmu-TimetableUITests";
+				PRODUCT_NAME = "풍무고등학교";
+				TEST_TARGET_NAME = Pungmu_Timetable;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B8527FD31BD9C05300796ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Pungmu_TimetableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartBox.Pungmu-TimetableUITests";
+				PRODUCT_NAME = "풍무고등학교";
+				TEST_TARGET_NAME = Pungmu_Timetable;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		B88194E91BDDCA5400A3A217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = notify/notify.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = notify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartBox.Pungmu-Timetable-App.notifys";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B88194EA1BDDCA5400A3A217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = notify/notify.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = notify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartBox.Pungmu-Timetable-App.notifys";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B88AC16B1BE72A1400257840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WatchTIME/WatchTIME.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = WatchTIME_Extension;
+				INFOPLIST_FILE = WatchTIME/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartBox.Pungmu-Timetable-App.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		B88AC16C1BE72A1400257840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WatchTIME/WatchTIME.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = WatchTIME_Extension;
+				INFOPLIST_FILE = WatchTIME/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartBox.Pungmu-Timetable-App.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		B88AC16D1BE72A1400257840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "WatchTIME Extension/WatchTIME Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "WatchTIME Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartBox.Pungmu-Timetable-App.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		B88AC16E1BE72A1400257840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "WatchTIME Extension/WatchTIME Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "WatchTIME Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SmartBox.Pungmu-Timetable-App.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8527F9C1BD9C05300796ADD /* Build configuration list for PBXProject "풍무고등학교" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8527FC91BD9C05300796ADD /* Debug */,
+				B8527FCA1BD9C05300796ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8527FCB1BD9C05300796ADD /* Build configuration list for PBXNativeTarget "풍무고등학교" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8527FCC1BD9C05300796ADD /* Debug */,
+				B8527FCD1BD9C05300796ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8527FCE1BD9C05300796ADD /* Build configuration list for PBXNativeTarget "풍무고등학교Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8527FCF1BD9C05300796ADD /* Debug */,
+				B8527FD01BD9C05300796ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8527FD11BD9C05300796ADD /* Build configuration list for PBXNativeTarget "풍무고등학교UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8527FD21BD9C05300796ADD /* Debug */,
+				B8527FD31BD9C05300796ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B88194E81BDDCA5400A3A217 /* Build configuration list for PBXNativeTarget "notify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B88194E91BDDCA5400A3A217 /* Debug */,
+				B88194EA1BDDCA5400A3A217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B88AC16F1BE72A1400257840 /* Build configuration list for PBXNativeTarget "WatchTIME Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B88AC16D1BE72A1400257840 /* Debug */,
+				B88AC16E1BE72A1400257840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B88AC1711BE72A1400257840 /* Build configuration list for PBXNativeTarget "WatchTIME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B88AC16B1BE72A1400257840 /* Debug */,
+				B88AC16C1BE72A1400257840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8527F991BD9C05300796ADD /* Project object */;
+}
